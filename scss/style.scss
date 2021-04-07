@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    padding: 25px;
+    .click-btn {
+        width: 100%;
+        height: 100%;
+        background-color: #252526;
+        color: #1FED7A;
+        font-family: 'Comfortaa';
+        font-weight: 300;
+        border-radius: 1000px; 
+        border: 1px solid #1FED7A;
+        transition: all 300ms ease-out;
+        &:hover {
+            border: 1px solid #1E1E1E;  
+            font-weight: 700;
+            letter-spacing: 5px;
+        }
+        @media screen and (max-width: 1920px) {
+            max-width: 568px;
+            max-height: 568px;
+            font-size: 35px;
+            &:hover {
+                box-shadow: 0px 0px 0px 7px #1FED7A,
+                0px 0px 0px 21px #1E1E1E,
+                0px 0px 0px 23px #1FED7A;
+            }
+        }
+        @media screen and (max-width: 1600px) {
+            max-width: 468px;
+            max-height: 468px;
+            font-size: 30px;
+        }
+        @media screen and (max-width: 1366px) {
+            max-width: 368px;
+            max-height: 368px;
+            font-size: 25px;
+        }
+        @media screen and (max-width: 1024px) {
+            max-width: 318px;
+            max-height: 318px;
+            font-size: 20px;
+            &:hover {
+                box-shadow: 0px 0px 0px 6px #1FED7A,
+                0px 0px 0px 19px #1E1E1E,
+                0px 0px 0px 21px #1FED7A;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 268px;
+            max-height: 268px;
+            font-size: 15px;
+            &:hover {
+                box-shadow: 0px 0px 0px 5px #1FED7A,
+                0px 0px 0px 16px #1E1E1E,
+                0px 0px 0px 17px #1FED7A;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            max-width: 218px;
+            max-height: 218px;
+            font-size: 10px;
+            &:hover {
+                box-shadow: 0px 0px 0px 4px #1FED7A,
+                0px 0px 0px 15px #1E1E1E,
+                0px 0px 0px 16px #1FED7A;
+            }
+        }
+    }
+
+}
