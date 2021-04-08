@@ -11,7 +11,27 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #1E1E1E;
-  padding: 25px;
+  padding: 75px 25px;
+}
+
+.wrapper .click-reload {
+  width: 100%;
+  height: 100%;
+  background-color: #252526;
+  color: #5DADEC;
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  border-radius: 1000px;
+  border: 1px solid #5DADEC;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  letter-spacing: 1px;
+}
+
+.wrapper .click-reload:hover {
+  border: 1px solid #1E1E1E;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
 
 .wrapper .click-btn {
@@ -25,74 +45,210 @@
   border: 1px solid #1FED7A;
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
+  letter-spacing: 1px;
 }
 
 .wrapper .click-btn:hover {
   border: 1px solid #1E1E1E;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
+}
+
+.wrapper .click-btn-orange {
+  width: 100%;
+  height: 100%;
+  background-color: #252526;
+  color: #F4900C;
+  font-family: 'Comfortaa';
+  border-radius: 1000px;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  border: 1px solid #1E1E1E;
+  font-weight: 700;
+  letter-spacing: 10px;
 }
 
 @media screen and (max-width: 1920px) {
-  .wrapper .click-btn {
+  .click-reload {
+    max-width: 243px;
+    max-height: 243px;
+    font-size: 20px;
+  }
+  .click-reload:hover {
+    -webkit-box-shadow: 0px 0px 0px 6px #5DADEC, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 20px #5DADEC;
+            box-shadow: 0px 0px 0px 6px #5DADEC, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 20px #5DADEC;
+  }
+  .click-btn {
     max-width: 568px;
     max-height: 568px;
     font-size: 35px;
   }
-  .wrapper .click-btn:hover {
+  .click-btn:hover {
     -webkit-box-shadow: 0px 0px 0px 7px #1FED7A, 0px 0px 0px 21px #1E1E1E, 0px 0px 0px 23px #1FED7A;
             box-shadow: 0px 0px 0px 7px #1FED7A, 0px 0px 0px 21px #1E1E1E, 0px 0px 0px 23px #1FED7A;
+  }
+  .click-btn-orange {
+    max-width: 568px;
+    max-height: 568px;
+    font-size: 35px;
+    -webkit-box-shadow: 0px 0px 0px 7px #F4900C, 0px 0px 0px 21px #1E1E1E, 0px 0px 0px 23px #F4900C;
+            box-shadow: 0px 0px 0px 7px #F4900C, 0px 0px 0px 21px #1E1E1E, 0px 0px 0px 23px #F4900C;
+    margin-left: 400px;
+  }
+  .click-btn-orange:hover {
+    -webkit-box-shadow: 0px 0px 0px 7px #F4900C, 0px 0px 0px 21px #1E1E1E, 0px 0px 0px 23px #F4900C;
+            box-shadow: 0px 0px 0px 7px #F4900C, 0px 0px 0px 21px #1E1E1E, 0px 0px 0px 23px #F4900C;
   }
 }
 
 @media screen and (max-width: 1600px) {
-  .wrapper .click-btn {
+  .click-reload {
+    max-width: 218px;
+    max-height: 218px;
+    font-size: 18px;
+  }
+  .click-btn {
     max-width: 468px;
     max-height: 468px;
     font-size: 30px;
   }
+  .click-btn-orange {
+    max-width: 468px;
+    max-height: 468px;
+    font-size: 30px;
+    margin-left: 350px;
+  }
 }
 
 @media screen and (max-width: 1366px) {
-  .wrapper .click-btn {
+  .click-reload {
+    max-width: 168px;
+    max-height: 168px;
+    font-size: 15px;
+  }
+  .click-btn {
     max-width: 368px;
     max-height: 368px;
     font-size: 25px;
   }
+  .click-btn-orange {
+    max-width: 368px;
+    max-height: 368px;
+    font-size: 25px;
+    margin-left: 300px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  .wrapper .click-btn {
+  .click-reload {
+    max-width: 143px;
+    max-height: 143px;
+    font-size: 14px;
+  }
+  .click-reload:hover {
+    -webkit-box-shadow: 0px 0px 0px 5px #5DADEC, 0px 0px 0px 18px #1E1E1E, 0px 0px 0px 19px #5DADEC;
+            box-shadow: 0px 0px 0px 5px #5DADEC, 0px 0px 0px 18px #1E1E1E, 0px 0px 0px 19px #5DADEC;
+    letter-spacing: 4px;
+  }
+  .click-btn {
     max-width: 318px;
     max-height: 318px;
     font-size: 20px;
   }
-  .wrapper .click-btn:hover {
+  .click-btn:hover {
     -webkit-box-shadow: 0px 0px 0px 6px #1FED7A, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 21px #1FED7A;
             box-shadow: 0px 0px 0px 6px #1FED7A, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 21px #1FED7A;
+  }
+  .click-btn-orange {
+    max-width: 318px;
+    max-height: 318px;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 0px 6px #F4900C, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 21px #F4900C;
+            box-shadow: 0px 0px 0px 6px #F4900C, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 21px #F4900C;
+    margin-left: 250px;
+  }
+  .click-btn-orange:hover {
+    -webkit-box-shadow: 0px 0px 0px 6px #F4900C, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 21px #F4900C;
+            box-shadow: 0px 0px 0px 6px #F4900C, 0px 0px 0px 19px #1E1E1E, 0px 0px 0px 21px #F4900C;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper .click-btn {
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .click-reload {
+    max-width: 118px;
+    max-height: 118px;
+    font-size: 13px;
+  }
+  .click-reload:hover {
+    -webkit-box-shadow: 0px 0px 0px 5px #5DADEC, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #5DADEC;
+            box-shadow: 0px 0px 0px 5px #5DADEC, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #5DADEC;
+  }
+  .click-btn {
     max-width: 268px;
     max-height: 268px;
-    font-size: 15px;
+    font-size: 16px;
   }
-  .wrapper .click-btn:hover {
+  .click-btn:hover {
     -webkit-box-shadow: 0px 0px 0px 5px #1FED7A, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #1FED7A;
             box-shadow: 0px 0px 0px 5px #1FED7A, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #1FED7A;
+    letter-spacing: 8px;
+  }
+  .click-btn-orange {
+    max-width: 268px;
+    max-height: 268px;
+    font-size: 16px;
+    -webkit-box-shadow: 0px 0px 0px 5px #F4900C, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #F4900C;
+            box-shadow: 0px 0px 0px 5px #F4900C, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #F4900C;
+    letter-spacing: 8px;
+    margin-left: 0;
+  }
+  .click-btn-orange:hover {
+    -webkit-box-shadow: 0px 0px 0px 5px #F4900C, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #F4900C;
+            box-shadow: 0px 0px 0px 5px #F4900C, 0px 0px 0px 16px #1E1E1E, 0px 0px 0px 17px #F4900C;
+    letter-spacing: 8px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .wrapper .click-btn {
+  .wrapper {
+    padding: 50px 25px;
+  }
+  .click-reload {
+    max-width: 118px;
+    max-height: 118px;
+    font-size: 12px;
+  }
+  .click-reload:hover {
+    -webkit-box-shadow: 0px 0px 0px 4px #5DADEC, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #5DADEC;
+            box-shadow: 0px 0px 0px 4px #5DADEC, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #5DADEC;
+  }
+  .click-btn {
     max-width: 218px;
     max-height: 218px;
-    font-size: 10px;
+    font-size: 14px;
   }
-  .wrapper .click-btn:hover {
+  .click-btn:hover {
     -webkit-box-shadow: 0px 0px 0px 4px #1FED7A, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #1FED7A;
             box-shadow: 0px 0px 0px 4px #1FED7A, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #1FED7A;
+  }
+  .click-btn-orange {
+    max-width: 218px;
+    max-height: 218px;
+    font-size: 14px;
+    -webkit-box-shadow: 0px 0px 0px 4px #F4900C, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #F4900C;
+            box-shadow: 0px 0px 0px 4px #F4900C, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #F4900C;
+  }
+  .click-btn-orange:hover {
+    -webkit-box-shadow: 0px 0px 0px 4px #F4900C, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #F4900C;
+            box-shadow: 0px 0px 0px 4px #F4900C, 0px 0px 0px 15px #1E1E1E, 0px 0px 0px 16px #F4900C;
   }
 }
