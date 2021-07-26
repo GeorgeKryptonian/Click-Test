@@ -1,1 +1,1 @@
-*Ссылка на проект - https://georgekryptonian.github.io/Click-Test/*
+*Link to the project - https://georgekryptonian.github.io/Click-Test/*
